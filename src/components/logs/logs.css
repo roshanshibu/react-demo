@@ -1,0 +1,10 @@
+.logContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+.logEntry{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}

@@ -55,3 +55,23 @@ input{
   padding: 2px;
   width: fit-content;
 }
+
+.warning_container{
+  text-align: center;
+  animation: blinker 1s linear infinite;
+
+  color: white;
+}
+.warning{
+  opacity: 1;
+  background: red;
+}
+.hidden{
+  opacity: 0;
+}
+@keyframes blinker {
+  50%{
+    opacity: 0;
+  }
+}
+
